@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="javadoc">
+<target name="javadoc">
+<javadoc access="public" author="true" classpath="../CsvParser/lib/DocumentParserIff.jar;../CsvParser/lib/log4j-1.2.14.jar;lib/CsvParser_0.1.jar;../CsvParser/lib/junit.jar" destdir="doc" doctitle="Transformation Engine" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="uk.co.encs.transformation.engine.transformer,uk.co.encs.transformation.engine.parser,uk.co.encs.parser.common,uk.co.encs.parser.csv,uk.co.encs.parser.test,uk.co.encs.transformation.engine.test,uk.co.encs.transformation.engine.reader,uk.co.encs.parser.util" source="1.5" sourcepath="src;../CsvParser/src" splitindex="true" use="true" version="true"/>
+</target>
+</project>

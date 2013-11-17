@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<transformationengine>
+	<!--
+		Keeping this config option for release code will allow clients to potentially 
+		build and define their own parsers, providing of course they can ascertain the name 
+		of the interface need to implement each parser.
+		This maybe a bad idea for client release code.
+	-->
+	<parser type="csv">uk.co.encs.parser.csv.CsvParser</parser>
+	<parser type="tsv">uk.co.encs.parser.tsv.TsvParser</parser>
+	<loglevel>debug</loglevel>
+</transformationengine>
